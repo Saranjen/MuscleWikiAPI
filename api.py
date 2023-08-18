@@ -14,7 +14,7 @@ with open('workout-attributes.json', 'r') as f:
 def home():
     response = app.response_class(
         response=json.dumps({
-            'message': "Muscle Wiki API"
+            'message': "Exercises Wiki API"
         }),
         mimetype='application/json',
         status=200
