@@ -155,7 +155,7 @@ def get_musclewiki_data():
     with open('workout_attributes.json', 'w') as f:
             json.dump(workout_attributes, f,indent=4)
   
-    with open('musclewiki_data.json', 'w') as f:
+    with open('workout_data.json', 'w') as f:
         json.dump(musclewiki_data, f,indent=4)
 
 get_musclewiki_data()
